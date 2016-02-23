@@ -7,7 +7,7 @@
     int pid;
     if (argc==1)
     {
-      printf("Usage: run <command> [<parameters>]\n"); 
+      printf("Usage: forkexec <command> [<parameters>]\n"); 
       exit(1);
     }
     if (!(pid = fork())) {
