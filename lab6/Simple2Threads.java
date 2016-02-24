@@ -14,6 +14,7 @@ public class Simple2Threads {
         s.nextLine();
         childThread.stop();
         System.out.println("Child process killed.");
+        s.close();
     }
     private static void sleep(int milliseconds){
         try{
