@@ -1,0 +1,113 @@
+Script started on Thu 25 Feb 2016 13:52:15 GMT
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1 1
+blocks 1   times through 1   total time 1     time per access 1 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1 10
+blocks 1   times through 10   total time 1     time per access 0.1 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1 100
+blocks 1   times through 100   total time 2     time per access 0.02 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1 1000
+blocks 1   times through 1000   total time 4     time per access 0.004 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1 10000
+blocks 1   times through 10000   total time 22     time per access 0.0022 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1 100000
+blocks 1   times through 100000   total time 871     time per access 0.00871 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1 1000000
+blocks 1   times through 1000000   total time 8660     time per access 0.00866 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1 10000000
+blocks 1   times through 10000000   total time 32966     time per access 0.0032966 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1 10000000[C0
+blocks 1   times through 100000000   total time 193481     time per access 0.00193481 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1 100000000[K[K[K[K[K[K[K[K[K[K[K[K 10 1
+blocks 10   times through 1   total time 9     time per access 0.9 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 10 10 1
+blocks 100   times through 1   total time 427     time per access 4.27 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100 10 1
+blocks 1000   times through 1   total time 2756     time per access 2.756 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1000 1[C0 1
+blocks 10000   times through 1   total time 8491     time per access 0.8491 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 10000 1[C0 1
+blocks 100000   times through 1   total time 40782     time per access 0.40782 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100000 10 1
+Segmentation fault (core dumped)
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1000000 1[1P 1
+blocks 100000   times through 1   total time 35344     time per access 0.35344 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100000 10 1
+Segmentation fault (core dumped)
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1000000 1[1P 1[C[C
+blocks 100000   times through 1   total time 33295     time per access 0.33295 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100000 10
+blocks 100000   times through 10   total time 55963     time per access 0.055963 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100000 100
+blocks 100000   times through 100   total time 197691     time per access 0.0197691 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100000 100
+blocks 100000   times through 100   total time 193453     time per access 0.0193453 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100000 1000
+blocks 100000   times through 1000   total time 1.66621e+06     time per access 0.0166621 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100000 1000
+blocks 100000   times through 1000   total time 1.61682e+06     time per access 0.0161682 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100000 1000[K
+blocks 100000   times through 100   total time 200542     time per access 0.0200542 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100000 1000
+blocks 100000   times through 1000   total time 1.66459e+06     time per access 0.0166459 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100000 10000
+blocks 100000   times through 10000   total time 1.56171e+07     time per access 0.0156171 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100000 10000[1P 10000
+blocks 10000   times through 10000   total time 1.60318e+06     time per access 0.0160318 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 10000 10000[1P 10000
+blocks 1000   times through 10000   total time 124580     time per access 0.012458 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1000 100000 10000
+blocks 10000   times through 10000   total time 1.60023e+06     time per access 0.0160023 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 10000 10000[1P 100000
+blocks 1000   times through 100000   total time 1.11198e+06     time per access 0.0111197 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1000 1000000[1P 1000000
+blocks 100   times through 1000000   total time 1.09937e+06     time per access 0.0109937 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 100 1000000[C[K[C0 100000
+blocks 1000   times through 100000   total time 1.1717e+06     time per access 0.011717 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1000 100000[K
+blocks 1000   times through 10000   total time 129096     time per access 0.0129096 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1000 10000
+blocks 1000   times through 10000   total time 122741     time per access 0.0122741 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 1000 10000[K[C0 1000
+blocks 10000   times through 1000   total time 160341     time per access 0.0160341 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m ./loop4096 10000 1000[C[C[C[C[C0
+blocks 10000   times through 10000   total time 1.59845e+06     time per access 0.0159845 
+[0;36mceashb[m[1;33m@cseelab140 [0;35m~/Documents/ce222/lab7[m 
+[0;32m > $[m exit
+
+Script done on Thu 25 Feb 2016 14:07:20 GMT

@@ -1,0 +1,50 @@
+Script started on Thu 25 Feb 2016 13:21:59 GMT
+[0;36mceashb[m[1;33m@cseelab140 [0;35m/tmp/ce222[m 
+[0;32m > $[m exit[1Pzshexit[Ktime dd bs=1000 count=2000 if=/dev/zero of=fred
+2000+0 records in
+2000+0 records out
+2000000 bytes (2.0 MB) copied, 0.010304 s, 194 MB/s
+
+real	0m0.014s
+user	0m0.000s
+sys	0m0.012s
+[0;36mceashb[m[1;33m@cseelab140 [0;35m/tmp/ce222[m 
+[0;32m > $[m time dd bs=1000 count=2000 if=/dev/zero of=fred[C[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[1@0[C[C[C[1@0[C[C[C[1@0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[Kbert
+2000000+0 records in
+2000000+0 records out
+2000000 bytes (2.0 MB) copied, 2.18195 s, 917 kB/s
+
+real	0m2.184s
+user	0m0.132s
+sys	0m2.048s
+[0;36mceashb[m[1;33m@cseelab140 [0;35m/tmp/ce222[m 
+[0;32m > $[m time dd bs=1 count=2000000 if=/dev/zero of=bert[C[1P[1@4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4[C[C[C[C[C[C[C[C[C[1P[1P[1@5
+500000+0 records in
+500000+0 records out
+2000000 bytes (2.0 MB) copied, 0.561398 s, 3.6 MB/s
+
+real	0m0.563s
+user	0m0.044s
+sys	0m0.516s
+[0;36mceashb[m[1;33m@cseelab140 [0;35m/tmp/ce222[m 
+[0;32m > $[m time dd bs=4 count=500000 if=/dev/zero of=bert4[C[C[1P[1@1[1@0[1@0[1@0[C[C[C[C[C[C[C[C[C[1P[1@2[C[C[C[C[1P[C[C[C[C[1P[1P[1P[1P[1P[1@1[1@9[1@5[1@3
+1953+0 records in
+1953+0 records out
+1953000 bytes (2.0 MB) copied, 0.00797363 s, 245 MB/s
+
+real	0m0.011s
+user	0m0.000s
+sys	0m0.008s
+[0;36mceashb[m[1;33m@cseelab140 [0;35m/tmp/ce222[m 
+[0;32m > $[m time dd bs=1000 count=1953 if=/dev/zero of=bert4[C[1P[1P[1P[1@0[1@0[1@0[C[1P[1P[1P[1P[1@2[1@0[1@0[1@0[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K2000
+1000+0 records in
+1000+0 records out
+2000000 bytes (2.0 MB) copied, 0.00318504 s, 628 MB/s
+
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s
+[0;36mceashb[m[1;33m@cseelab140 [0;35m/tmp/ce222[m 
+[0;32m > $[m exit
+
+Script done on Thu 25 Feb 2016 13:25:49 GMT
