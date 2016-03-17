@@ -26,6 +26,7 @@ if ! [ -d "imgscalr" ]; then
     git clone https://github.com/thebuzzmedia/imgscalr.git
 fi
 
+mkdir "imgscalr/bin"
 javac -d "imgscalr/bin" imgscalr/src/main/java/org/imgscalr/*.java
 javac -d "imgscalr/bin" -classpath "imgscalr/bin" ImageResize.java
 
