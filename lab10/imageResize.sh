@@ -19,8 +19,9 @@ if [ -d "$2" ]; then
     esac
 fi
 
-while true; do true
-
-done
-
+FILES=$1/*.java
+for f in $FILES
+    do
+        echo "Processing $f..."
+    done
 
