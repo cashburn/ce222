@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-int large_array[10000000];
+int large_array[100000000];
 
 int main(int argc, char *argv[]){
 
@@ -8,7 +8,7 @@ int main(int argc, char *argv[]){
 
   system("ps l"); /* note: letter l */
 
-  for ( i=0; i<10000000; ++i ) {
+  for ( i=0; i<100000000; ++i ) {
     large_array[i] = 33;
   };
 
