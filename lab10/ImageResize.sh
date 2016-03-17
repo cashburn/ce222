@@ -5,6 +5,16 @@ if [ "$#" -ne 2 ]; then
     exit 1
 fi
 
+if ! [ -x `which javac` ]; then
+    echo "Java JDK must be installed."
+    exit 1
+fi
+
+if ! [ -x `which java` ]; then
+    echo "Java JRE must be installed."
+    exit 1
+fi
+
 if ! [ -d "$1" ]; then
     echo "Source directory not a directory"
     exit 1
