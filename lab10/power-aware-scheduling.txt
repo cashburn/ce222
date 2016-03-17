@@ -1,0 +1,5 @@
+Steps toward power-aware scheduling
+
+One of the greatest concerns in writing operating systems today is how to maintain a balance between power consumption and high performance, especially considering new legislation concerning energy usage. This article looks at how a scheduler can allocate resources in particular ways that interact with the CPU and figure out ways to cut power consumption. At the moment, these systems are largely disconnected and do not use information from each other. The article presents a few different solutions on how to better-integrate power systems and schedulers, and lists several patch sets that could be combined to act as an intermediary between a scheduler and power tracking. The other main concern is to make sure systems are flexible enough to handle different periods when power saving should be the main factor vs high performance, and the article offers a very straight-forward solution to this problem.
+
+
